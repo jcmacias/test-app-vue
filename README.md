@@ -22,3 +22,9 @@ This is the list of products for the user to be able to navigate through.  Pleas
 **SalesRep:** 
 
 This is the contact information for the presentation, be sure to display this contact information.
+
+
+Once you have completed the project, post it to Github and email me the URL.
+
+Thanks,
+Max
