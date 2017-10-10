@@ -5,6 +5,8 @@ Simple Test Application Project
 
 Create a single page application to view thumbnails of products, allowing user to click on a single product to view full product details. We are looking for a simple and clean design with a focus on the product images.  Must also be responsive and work well on all devices (desktop, tablet, phone)
 
+DO NOT use CSS framework please.
+
 The data will be provided via JSON that is in the project and has the following definition:
 
 **The root object:**
