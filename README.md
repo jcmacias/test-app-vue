@@ -1,5 +1,5 @@
 # TestApplication
-Simple Test Application Project
+Simple VueJS Test Application Project
 
 **Project Scope:**
 
