@@ -1,0 +1,45 @@
+.HeroMainContent {
+    max-height: 500px;
+    background-color: rgba(102,102,102,.8);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.HeroTitle {
+    color: #fff;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0;
+}
+.HeroSubTitle {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: normal;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    color: #fff
+}
+.ReadMore {
+    padding: 10px 45px;
+    font-size: 1.125rem;
+    color: #ffbe1d;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #ffbe1d;
+    border-radius: 3px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.ReadMore:hover{
+    color: #fff;
+    background-color: #ffbe1d;
+}
+@media screen and (max-width: 411px) {
+    .HeroTitle {
+        font-size: 2rem;
+    }
+    .HeroSubTitle {
+        font-size: .85rem;
+        
+    }
+  }

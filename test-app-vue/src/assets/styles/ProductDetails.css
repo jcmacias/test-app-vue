@@ -1,0 +1,46 @@
+.ProductContainer{
+    width:100%;
+    padding-top: 40px;
+}
+.ProductContainer:after {
+
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.PhotoContainer {
+    float: left;
+    width:50%;
+}
+.Photo{
+    width: 100%;
+    max-height: 500px;
+    object-fit: scale-down;
+}
+.FullInfo {
+    float: left;
+    width:50%;
+    
+}
+.Specifications {
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 411px) {
+    .PhotoContainer {
+        width:100%;
+    }
+    .FullInfo {
+        width:90%;
+    }
+    .FullInfo h2 {
+        font-size: 1rem;
+    }
+    .FullInfo p {
+        font-size: .85rem;
+    }
+  }

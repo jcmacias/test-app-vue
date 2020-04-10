@@ -1,0 +1,68 @@
+
+.SectionTitle {
+    color: #000;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:30px;
+}
+.List{
+    list-style:none;
+    padding:0;
+    margin:0;
+    width:100%;
+    text-align:center;
+    word-wrap:break-word;
+}
+.ListElement {
+    float:left;
+    width:33%;
+}
+.Product{
+    position: relative;
+    cursor: pointer;
+}
+.ThumbnailContainer {
+    width:250px;
+    margin: 0 auto;
+    position: relative;
+}
+.Thumbnail{
+    width: 100%;
+    max-height: 111px;
+    object-fit: scale-down;
+}
+.ManufacturerLogoContainer{
+    position: absolute;
+    right: 40px;
+    width: 26px;
+     bottom: 0;
+    border: 1px solid #ffbe1d;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #fff;
+}
+.ManufacturerLogo{
+    width: 100%;
+}
+.BasicInfoContainer {
+    max-width: 300px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .ListElement {
+        float:left;
+        width:50%;
+    }
+  }
+
+@media screen and (max-width: 411px) {
+    .ListElement {
+        float:left;
+        width:100%;
+    }
+  }

@@ -1,0 +1,18 @@
+.NavBar {
+    background-color: #4e493e;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+.logo {
+    width: 250px;
+    height: 75px;
+}
+.logo img {
+    width: 100%;
+}
+@media screen and (max-width: 375px) {
+    .logo {
+        width: 200px;
+        height: 75px;
+    }
+  }
